@@ -1,0 +1,9 @@
+<script>
+function calculate(expression) {
+  return eval(expression);
+}
+
+var userInput = prompt("Введите математическое выражение:");
+var result = calculate(userInput);
+console.log("Результат:", result);
+</script>
